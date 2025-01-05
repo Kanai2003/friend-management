@@ -1,7 +1,7 @@
 import axios from "axios";
 
 axios.defaults.withCredentials = true;
-const BASE_URL = "https://friend-management.onrender.com"
+const BASE_URL = "https://friend-management.onrender.com/api/v1"
 
 // Helper function to extract and format error messages
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
